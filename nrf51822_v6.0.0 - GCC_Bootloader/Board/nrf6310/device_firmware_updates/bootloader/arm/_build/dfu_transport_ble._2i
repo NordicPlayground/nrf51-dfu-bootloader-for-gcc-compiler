@@ -1,0 +1,5 @@
+-c --cpu Cortex-M0 --li -g -O3 --apcs=interwork --enum_is_int -I.. -I..\include -I..\include\ble_transport -I..\..\..\..\..\Include -I..\..\..\..\..\Include\sd_common -I..\..\..\..\..\Include\app_common -I..\..\..\..\..\Include\ble -I..\..\..\..\..\Include\ble\ble_services -I..\..\..\..\..\Include\s110 --c99
+-I C:\Keil_v5\ARM\RV31\INC
+-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include
+-I C:\Keil_v5\ARM\Device\Nordic\nRF51822\Include
+-DNRF51 -DNRF51 -DDEBUG_NRF_USER -DBOARD_NRF6310 -DBOOTLOADER_BANKED -DBLE_STACK_SUPPORT_REQD -o .\_build\dfu_transport_ble.o --omf_browse .\_build\dfu_transport_ble.crf --depend .\_build\dfu_transport_ble.d --feedback ".\_build\bootloader.fed" "..\dfu_transport_ble.c"

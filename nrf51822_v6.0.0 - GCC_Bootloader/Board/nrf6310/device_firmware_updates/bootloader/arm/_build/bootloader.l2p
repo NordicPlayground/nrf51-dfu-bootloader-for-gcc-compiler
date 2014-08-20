@@ -1,0 +1,23 @@
+--cpu Cortex-M0
+".\_build\system_nrf51.o"
+".\_build\arm_startup_nrf51.o"
+".\_build\main.o"
+".\_build\dfu_dual_bank.o"
+".\_build\bootloader.o"
+".\_build\bootloader_util_arm.o"
+".\_build\ble_dfu.o"
+".\_build\app_timer.o"
+".\_build\app_scheduler.o"
+".\_build\app_gpiote.o"
+".\_build\crc16.o"
+".\_build\softdevice_handler.o"
+".\_build\pstorage.o"
+".\_build\hci_mem_pool.o"
+".\_build\dfu_transport_ble.o"
+".\_build\ble_conn_params.o"
+".\_build\ble_advdata.o"
+".\_build\ble_srv_common.o"
+--strict --scatter ".\_build\bootloader.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\_build\bootloader.map" -o .\_build\bootloader.axf
