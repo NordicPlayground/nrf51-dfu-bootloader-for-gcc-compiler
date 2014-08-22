@@ -8,8 +8,13 @@ Note that the bootloader address was set to 0x35000 to make enough room for the 
 
 Requirements
 
+
 nRF51 SDK version 6.0.0
+
+S110 v7.0 and above. 
+
 nRF51822 Development Kit version 2.1.0 or later
+
 The project may need modifications to work with other versions or other boards.
 
 
