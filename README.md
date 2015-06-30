@@ -1,6 +1,6 @@
 DFU-Bootloader-for-gcc-compiler
 ===============================
-This project contains code examples of a the DFU bootloader modified to be built by gcc. 
+This project contains code examples of a DFU bootloader modified to be built by gcc. 
 gcc_nrf51_bootloader_xxaa.ld is added
 PSTORAGE_MIN_BLOCK_SIZE was changed to 0x000c to match with gcc build.
 
