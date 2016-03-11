@@ -17,7 +17,7 @@ nRF51822 Development Kit version 2.1.0 or later
 
 The project may need modifications to work with other versions or other boards.
 
-
+NOTE: This project is obsoleted and not updated. The Nordic nRF5 SDK now already has example for gcc bootloader.
 
 About this project
 
